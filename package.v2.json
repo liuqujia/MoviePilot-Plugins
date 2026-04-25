@@ -1,0 +1,14 @@
+{
+    "JuyingSearch": {
+        "name": "聚影搜索",
+        "description": "集成聚影API，搜索网盘资源，支持求片功能。",
+        "labels": "搜索,网盘,聚影",
+        "version": "1.0.0",
+        "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/cloud.png",
+        "author": "kirito",
+        "level": 1,
+        "history": {
+            "v1.0.0": "初始版本，支持聚影API搜索、电影详情、资源列表、求片功能"
+        }
+    }
+}
