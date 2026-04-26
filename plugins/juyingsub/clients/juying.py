@@ -71,7 +71,7 @@ class JuyingClient:
     # Public API
     # ------------------------------------------------------------------
 
-    def get_movie_resources(self, tmdb_id: int) -> List[Dict[str, Any]]:
+    def get_movie_resources_by_tmdb(self, tmdb_id: int) -> List[Dict[str, Any]]:
         """
         Search resources by TMDB ID.
 
