@@ -1,15 +1,15 @@
 {
-    "juymstrgm": {
-        "name": "聚影115订阅追更",
-        "description": "聚影+115网盘订阅追更插件，支持聚影、PanSou、HDHive多源搜索，自动转存订阅资源。",
-        "labels": "115,网盘,订阅,聚影,PanSou,HDHive",
-        "version": "1.5.0",
-        "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/cloud.png",
-        "author": "kirito",
-        "level": 1,
-        "history": {
-            "v1.5.0": "重命名为JuyingSub，新增聚影搜索源",
-            "v1.4.3": "新增聚影搜索源，移除Nullbr，保留PanSou和HDHive"
-        }
+  "juyingsub": {
+    "name": "聚影115订阅追更",
+    "description": "聚影+115网盘订阅追更插件，支持聚影、PanSou、HDHive多源搜索，自动转存订阅资源。",
+    "labels": "115,网盘,订阅,聚影,PanSou,HDHive",
+    "version": "1.5.0",
+    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/cloud.png",
+    "author": "kirito",
+    "level": 1,
+    "history": {
+      "v1.5.0": "重命名为JuyingSub，新增聚影搜索源",
+      "v1.4.3": "新增聚影搜索源，移除Nullbr，保留PanSou和HDHive"
     }
+  }
 }
