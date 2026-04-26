@@ -37,7 +37,7 @@ from .utils import (
 lock = Lock()
 
 
-class P115StrgmSub(_PluginBase):
+class JuyingSub(_PluginBase):
     """115网盘订阅追更插件"""
 
     # 插件名称
@@ -964,7 +964,7 @@ class P115StrgmSub(_PluginBase):
         if self._cron and self._cron_interval_ge_min_hours(self._cron, self._MIN_INTERVAL_HOURS):
             try:
                 services.append({
-                    "id": "P115StrgmSub",
+                    "id": "JuyingSub",
                     "name": "115网盘订阅追更服务",
                     "trigger": CronTrigger.from_crontab(self._cron),
                     "func": self.sync_subscribes,
@@ -973,7 +973,7 @@ class P115StrgmSub(_PluginBase):
             except Exception as e:
                 logger.warning(f"Cron 表达式无效：{self._cron}，将回退 interval=8h。错误：{e}")
                 services.append({
-                    "id": "P115StrgmSub",
+                    "id": "JuyingSub",
                     "name": "115网盘订阅追更服务",
                     "trigger": "interval",
                     "func": self.sync_subscribes,
@@ -981,7 +981,7 @@ class P115StrgmSub(_PluginBase):
                 })
         else:
             services.append({
-                "id": "P115StrgmSub",
+                "id": "JuyingSub",
                 "name": "115网盘订阅追更服务",
                 "trigger": "interval",
                 "func": self.sync_subscribes,
@@ -992,7 +992,7 @@ class P115StrgmSub(_PluginBase):
         if self._hdhive_checkin_enabled and self._hdhive_checkin_cron:
             try:
                 services.append({
-                    "id": "P115StrgmSub_HDHiveCheckin",
+                    "id": "JuyingSub_HDHiveCheckin",
                     "name": "HDHive 签到服务",
                     "trigger": CronTrigger.from_crontab(self._hdhive_checkin_cron),
                     "func": self._do_hdhive_checkin,
