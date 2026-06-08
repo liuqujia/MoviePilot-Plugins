@@ -962,8 +962,8 @@ class P115StrgmSubKirito(_PluginBase):
         if self._cron and self._cron_interval_ge_min_hours(self._cron, self._MIN_INTERVAL_HOURS):
             try:
                 services.append({
-                    "id": "P115StrgmSub",
-                    "name": "115网盘订阅追更服务",
+                    "id": "P115StrgmSubKirito",
+                    "name": "115网盘订阅追更服务 Kirito版",
                     "trigger": CronTrigger.from_crontab(self._cron),
                     "func": self.sync_subscribes,
                     "kwargs": {}
@@ -971,16 +971,16 @@ class P115StrgmSubKirito(_PluginBase):
             except Exception as e:
                 logger.warning(f"Cron 表达式无效：{self._cron}，将回退 interval=8h。错误：{e}")
                 services.append({
-                    "id": "P115StrgmSub",
-                    "name": "115网盘订阅追更服务",
+                    "id": "P115StrgmSubKirito",
+                    "name": "115网盘订阅追更服务 Kirito版",
                     "trigger": "interval",
                     "func": self.sync_subscribes,
                     "kwargs": {"hours": 8}
                 })
         else:
             services.append({
-                "id": "P115StrgmSub",
-                "name": "115网盘订阅追更服务",
+                "id": "P115StrgmSubKirito",
+                "name": "115网盘订阅追更服务 Kirito版",
                 "trigger": "interval",
                 "func": self.sync_subscribes,
                 "kwargs": {"hours": 8}
@@ -990,7 +990,7 @@ class P115StrgmSubKirito(_PluginBase):
         if self._hdhive_checkin_enabled and self._hdhive_checkin_cron:
             try:
                 services.append({
-                    "id": "P115StrgmSub_HDHiveCheckin",
+                    "id": "P115StrgmSubKirito_HDHiveCheckin",
                     "name": "HDHive 签到服务",
                     "trigger": CronTrigger.from_crontab(self._hdhive_checkin_cron),
                     "func": self._do_hdhive_checkin,
