@@ -9,14 +9,14 @@
     "level": 1,
     "history": {"v2.8.21": "修复生活事件误同步删除问题"}
   },
-  "p115strgmsub_test": {
-    "name": "115网盘订阅追更测试",
-    "description": "修复115 Cookie验证问题，兼容多种API返回格式",
+  "p115strgmsub_kirito": {
+    "name": "115网盘订阅追更 Kirito版",
+    "description": "修复Cookie验证兼容性，自动搜索115网盘资源并转存缺失电影和剧集",
     "labels": "云盘",
-    "version": "1.4.2",
+    "version": "1.0.0",
     "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/cloud.png",
-    "author": "mrtian2016",
+    "author": "Kirito",
     "level": 1,
-    "history": {"v1.4.2": "修复Cookie验证兼容性问题"}
+    "history": {"v1.0.0": "修复115 Cookie验证兼容性问题"}
   }
 }
