@@ -1,17 +1,27 @@
 # MoviePilot Plugins
 
-MoviePilot 插件仓库
+Kirito 的 MoviePilot 插件仓库
 
 ## 插件列表
 
-### p115strgmsub_test
+### 115网盘订阅追更 Kirito版
 
-**115网盘订阅追更测试**
+**版本:** v1.0.1
 
-修复 115 Cookie 验证问题，兼容多种 API 返回格式。
+**功能:**
+- 修复 115 Cookie 验证兼容性问题
+- 结合 MoviePilot 订阅功能，自动搜索 115 网盘资源并转存缺失的电影和剧集
 
-**安装方式：**
+**安装方式:**
 在 MoviePilot 中添加第三方插件仓库：
 ```
 https://github.com/liuqujia/MoviePilot-Plugins
 ```
+
+## 更新日志
+
+### v1.0.1
+- 修复插件服务 ID 冲突问题
+
+### v1.0.0
+- 修复 115 Cookie 验证兼容性问题
