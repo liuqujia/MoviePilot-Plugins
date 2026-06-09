@@ -1,16 +1,14 @@
 {
-  "p115strgmsub_kirito": {
-    "name": "115网盘订阅追更 Kirito版",
-    "description": "修复Cookie验证兼容性，自动搜索115网盘资源并转存缺失电影和剧集",
-    "labels": "云盘",
-    "version": "1.0.2",
-    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/cloud.png",
+  "assrt_subtitle": {
+    "name": "ASSRT字幕下载",
+    "description": "整理入库时自动从ASSRT搜索并下载字幕",
+    "labels": "字幕",
+    "version": "1.0.0",
+    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/chinesesubfinder.png",
     "author": "Kirito",
     "level": 1,
     "history": {
-      "v1.0.2": "同步插件版本号",
-      "v1.0.1": "修复插件服务ID冲突问题",
-      "v1.0.0": "修复115 Cookie验证兼容性问题"
+      "v1.0.0": "首个版本，支持ASSRT字幕搜索和下载"
     }
   }
 }
