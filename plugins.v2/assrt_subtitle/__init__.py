@@ -23,7 +23,7 @@ class AssrtSubtitle(_PluginBase):
     # 插件元信息
     plugin_name = "ASSRT字幕下载"
     plugin_desc = "整理入库时自动从 ASSRT 搜索并下载字幕"
-    plugin_icon = "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/chinesesubfinder.png"
+    plugin_icon = "chinesesubfinder.png"
     plugin_version = "1.0.0"
     plugin_author = "Kirito"
     author_url = "https://github.com/liuqujia"
