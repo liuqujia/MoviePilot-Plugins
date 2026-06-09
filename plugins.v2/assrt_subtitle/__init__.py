@@ -24,7 +24,7 @@ class AssrtSubtitle(_PluginBase):
     plugin_name = "ASSRT字幕下载"
     plugin_desc = "整理入库时自动从 ASSRT 搜索并下载字幕"
     plugin_icon = "chinesesubfinder.png"
-    plugin_version = "1.0.0"
+    plugin_version = "1.0.1"
     plugin_author = "Kirito"
     author_url = "https://github.com/liuqujia"
     plugin_config_prefix = "assrt_subtitle_"
