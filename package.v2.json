@@ -3,12 +3,13 @@
     "name": "ASSRT字幕下载",
     "description": "整理入库时自动从ASSRT搜索并下载字幕",
     "labels": "字幕",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icon": "chinesesubfinder.png",
     "author": "Kirito",
     "level": 1,
     "history": {
-      "v1.0.0": "首个版本，支持ASSRT字幕搜索和下载"
+      "v1.0.1": "修复安装问题",
+      "v1.0.0": "首个版本"
     }
   }
 }
