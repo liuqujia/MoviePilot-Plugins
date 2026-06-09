@@ -1,27 +1,29 @@
-# MoviePilot Plugins
+# MoviePilot 插件仓库
 
-Kirito 的 MoviePilot 插件仓库
+## ASSRT字幕下载
 
-## 插件列表
+整理入库时自动从 ASSRT 搜索并下载字幕。
 
-### 115网盘订阅追更 Kirito版
+### 功能
 
-**版本:** v1.0.1
+- 自动搜索匹配的字幕
+- 支持简体/繁体/英文字幕
+- 自动下载并保存到视频目录
+- 支持覆盖已有字幕
 
-**功能:**
-- 修复 115 Cookie 验证兼容性问题
-- 结合 MoviePilot 订阅功能，自动搜索 115 网盘资源并转存缺失的电影和剧集
+### 配置
 
-**安装方式:**
-在 MoviePilot 中添加第三方插件仓库：
-```
-https://github.com/liuqujia/MoviePilot-Plugins
-```
+1. 获取 ASSRT API Token
+   - 注册 https://assrt.net
+   - 在个人设置中获取 API Token
 
-## 更新日志
+2. 在 MoviePilot 中添加仓库
+   ```
+   https://github.com/liuqujia/MoviePilot-Plugins
+   ```
 
-### v1.0.1
-- 修复插件服务 ID 冲突问题
+3. 安装插件并配置 Token
 
-### v1.0.0
-- 修复 115 Cookie 验证兼容性问题
+### 作者
+
+Kirito
