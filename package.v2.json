@@ -4,7 +4,7 @@
     "description": "整理入库时自动从ASSRT搜索并下载字幕",
     "labels": "字幕",
     "version": "1.0.0",
-    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/chinesesubfinder.png",
+    "icon": "chinesesubfinder.png",
     "author": "Kirito",
     "level": 1,
     "history": {
